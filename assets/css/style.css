@@ -118,3 +118,34 @@ MAIN PRESENTATION
 .page-content header .header-image img {
     width: 100%;
 }
+
+/*
+========================
+VALUES CARDS
+========================
+*/
+
+.page-content .values {
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-content .values .value-card {
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #faff03;
+}
+
+.page-content .values .value-card h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.page-content .values .value-card p {
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+}

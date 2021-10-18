@@ -20,6 +20,16 @@ NAVBAR
     .page-content header .header-image {
         display: none;
     }
+
+    .page-content .values .value-card {
+        width: 100%;
+        margin: 5%;
+    }
+
+    .page-content .values .value-card h1 {
+        margin: 0;
+    }
+
 }
 
 
