@@ -1,0 +1,79 @@
+/*
+    =================
+        FONTS GOOGLE
+    =================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+   
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/*
+    =================
+        NAVBAR
+    =================
+*/
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+}
+
+nav .left h1 {
+    text-transform: uppercase;
+    color: #faff03;
+}
+
+nav .left p {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+nav .left p:hover {
+    color: #c5c5c5;
+}
+
+nav .right button {
+    font-size: 16px;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+nav .right button.login {
+    color: white;
+    border: none;
+    outline-style: none;
+}
+
+nav .right button.login:hover {
+    color: #c5c5c5;
+}
+
+nav .right button.signup {
+    padding: 5px 15px;
+    color:  #faff03;
+    border: 1px solid #faff03;
+    border-radius: 5px;
+    outline-style: none;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+nav .right button.signup:hover {
+    background-color: #faff03;
+    color: black;
+}

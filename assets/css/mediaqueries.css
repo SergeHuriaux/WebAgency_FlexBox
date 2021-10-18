@@ -1,0 +1,11 @@
+        /*
+        =================
+            NAVBAR
+        =================
+        */
+
+@media screen and (max-width: 640px) {
+    nav .left p {
+        display: none;
+    }
+}
