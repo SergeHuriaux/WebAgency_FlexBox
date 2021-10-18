@@ -1,11 +1,30 @@
-        /*
-        =================
-            NAVBAR
-        =================
-        */
+/*
+=================
+NAVBAR
+=================
+*/
 
 @media screen and (max-width: 640px) {
     nav .left p {
         display: none;
     }
+
+    .page-content {
+        margin: 5%;
+    }
+
+    .page-content header .header-presentation {
+        width: 100%;
+    }
+
+    .page-content header .header-image {
+        display: none;
+    }
 }
+
+
+/*
+========================
+MAIN PRESENTATION
+========================
+*/

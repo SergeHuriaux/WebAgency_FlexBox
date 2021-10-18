@@ -1,7 +1,7 @@
 /*
-    =================
-        FONTS GOOGLE
-    =================
+=================
+FONTS GOOGLE
+=================
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
    
@@ -16,9 +16,9 @@ body {
 }
 
 /*
-    =================
-        NAVBAR
-    =================
+=================
+NAVBAR
+=================
 */
 
 nav {
@@ -57,7 +57,7 @@ nav .right button {
 nav .right button.login {
     color: white;
     border: none;
-    outline-style: none;
+    outline: none;
 }
 
 nav .right button.login:hover {
@@ -69,11 +69,52 @@ nav .right button.signup {
     color:  #faff03;
     border: 1px solid #faff03;
     border-radius: 5px;
-    outline-style: none;
+    outline: none;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 nav .right button.signup:hover {
     background-color: #faff03;
     color: black;
+}
+
+/*
+========================
+MAIN PRESENTATION
+========================
+*/
+
+.page-content {
+    margin: 5% 10%;
+}
+
+.page-content header {
+    display: flex;
+    align-items: center;
+}
+
+.page-content header .header-presentation {
+    width: 90%;
+}
+
+.page-content header .header-presentation h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.page-content header .header-presentation p {
+    font-weight: 300;
+}
+
+.page-content header .header-presentation button {
+    padding: 0;
+    background-color: inherit;
+    color:  #faff03;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.page-content header .header-image img {
+    width: 100%;
 }
