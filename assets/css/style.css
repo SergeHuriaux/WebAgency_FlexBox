@@ -149,3 +149,74 @@ VALUES CARDS
     line-height: 30px;
     letter-spacing: 2px;
 }
+
+/*
+========================
+Team
+========================
+*/
+
+.page-content .team {
+    margin-top: 5%;
+}
+
+.page-content .team .presentation-team {
+    text-align: center;
+    line-height: 30px;
+    color:#909090;
+}
+
+.page-content .team .presentation-team span {
+    color:#faff03;
+}
+
+.page-content .team .images {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-content .team .images .profile {
+    height: 400px;
+    width: 300px;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    padding: 10px;
+}
+
+.page-content .team .images .one {
+    background-image: url('../images/team/1.jpg');
+}
+.page-content .team .images .two{
+    background-image: url('../images/team/2.jpg');
+}
+.page-content .team .images .three {
+    background-image: url('../images/team/3.jpg');
+}
+.page-content .team .images .four {
+    background-image: url('../images/team/4.jpg');
+}
+.page-content .team .images .five {
+    background-image: url('../images/team/5.jpg');
+}
+.page-content .team .images .six{
+    background-image: url('../images/team/6.jpg');
+}
+
+.page-content .team .images .profile h1 {
+    color: white;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.page-content .team .images .profile p {
+    color: #faff03;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 9px 0;
+}
