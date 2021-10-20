@@ -220,3 +220,35 @@ Team
     letter-spacing: 2px;
     margin: 9px 0;
 }
+
+/*
+========================
+FOOTER
+========================
+*/
+
+footer {
+    margin: 10% 5% 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #faff03;
+    border-bottom: none;
+}
+
+footer .footer-column p {
+    font-size: 15px;
+    color: #c5c5c5;
+    cursor: pointer;
+}
+
+footer .footer-column p:hover {
+    color: white;
+    border-bottom: 1px solid #faff03;
+}
+
+footer .footer-column i{
+    margin-left: 36px;
+}
+
+

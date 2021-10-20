@@ -30,6 +30,22 @@ NAVBAR
         margin: 0;
     }
 
+    footer {
+        justify-content: center;
+    }
+
+    footer .footer-column {
+        width: 80%;
+    }
+
+    footer .footer-column {
+        width: 80%;
+    }
+
+    footer .footer-column i {
+    margin-left: 0;
+}
+
 }
 
 
